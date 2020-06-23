@@ -5,17 +5,6 @@ package main
 // 制約
 // α は英大文字 (A - Z) または英小文字 (a - z) である。
 
-import (
-	"fmt"
-	"strings"
-)
-
 func main() {
-	var a string
-	fmt.Scan(&a)
-	if strings.ToUpper(a) == a {
-		fmt.Println("A")
-	} else {
-		fmt.Println("a")
-	}
+	return
 }
